@@ -3,38 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rubens Noé Temoche Chávez | Arquitecto de Ecosistemas Cognitivos</title>
-    <!-- Tailwind CSS para un diseño limpio, profesional y responsivo -->
+    <title>Rubens Noé Temoche Chávez | CV Interactivo</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
 
-    <!-- Header / Hero Section -->
-    <header class="bg-slate-800 border-b border-slate-700 py-12 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8">
-            <!-- Foto de Perfil -->
+    <div class="max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+        
+        <!-- Cabecera / Perfil -->
+        <header class="flex flex-col sm:flex-row items-center gap-6 sm:gap-8 bg-slate-900/80 p-6 sm:p-8 rounded-3xl border border-slate-800 shadow-2xl backdrop-blur-sm">
             <img src="foto.jpg" alt="Rubens Noé Temoche Chávez" class="w-36 h-36 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-indigo-500 shadow-xl flex-shrink-0">
-            
-            <div class="text-center md:text-left">
-                <h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-white">Rubens Noé Temoche Chávez</h1>
-                <p class="text-indigo-400 font-medium text-lg mt-1">Arquitecto Jefe de Ecosistemas Cognitivos & Fundador de SmartWorld AI</p>
+            <div class="text-center sm:text-left">
+                <h1 class="text-2xl sm:text-4xl font-bold tracking-tight text-white">Rubens Noé Temoche Chávez</h1>
+                <p class="text-indigo-400 font-medium mt-1 text-base sm:text-lg">Arquitecto Jefe de Ecosistemas Cognitivos & Fundador de SmartWorld AI</p>
                 
-                <!-- Datos de contacto y redes -->
-                <div class="flex flex-wrap justify-center md:justify-start gap-4 mt-4 text-sm text-slate-300">
-                <!--   <span class="flex items-center gap-2"><i class="fa-solid fa-phone text-indigo-400"></i> (51) 993 224 286</span>
-                    <span class="flex items-center gap-2"><i class="fa-solid fa-envelope text-indigo-400"></i> rubenstec@gmail.com</span>
-                    <a href="https://www.linkedin.com/in/rubenstemoche/" target="_blank" class="flex items-center gap-2 text-indigo-400 hover:underline"><i class="fa-brands fa-linkedin"></i> LinkedIn</a> -->
+                <div class="flex flex-wrap justify-center sm:justify-start gap-4 mt-4 text-sm text-slate-300">
+                    <span class="flex items-center gap-1.5"><i class="fa-solid fa-phone text-indigo-400"></i> (51) 993 224 286</span>
+                    <a href="mailto:rubenstec@gmail.com" class="flex items-center gap-1.5 hover:text-indigo-400 transition-colors"><i class="fa-solid fa-envelope text-indigo-400"></i> rubenstec@gmail.com</a>
+                    <a href="https://linkedin.com" target="_blank" class="flex items-center gap-1.5 hover:text-indigo-400 transition-colors"><i class="fa-brands fa-linkedin text-indigo-400"></i> LinkedIn</a>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
-
-        
         <!-- Resumen Ejecutivo -->
-        <section class="bg-slate-800/50 rounded-2xl p-6 sm:p-8 border border-slate-700/60 shadow-lg">
+        <section class="bg-slate-900/50 rounded-2xl p-6 sm:p-8 border border-slate-800 shadow-lg mt-8">
             <h2 class="text-xl font-semibold text-white mb-3 flex items-center gap-2">
                 <i class="fa-solid fa-user-tie text-indigo-400"></i> Resumen Ejecutivo
             </h2>
@@ -43,172 +38,64 @@
             </p>
         </section>
 
-        <!-- Portafolio e infraestructura desplegada en Vercel -->
-        <section>
-            <div class="mb-6">
-                <h2 class="text-2xl font-bold text-white flex items-center gap-2">
-                    <i class="fa-solid fa-rocket text-indigo-400"></i> Portafolio de Despliegues en Vercel
-                </h2>
-                <p class="text-slate-400 text-sm mt-1">Soluciones, landing pages y motores interactivos desplegados en producción en mi cuenta personal de Vercel[cite: 4].</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                
-                <!-- Proyecto 1 -->
-                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 hover:border-indigo-500 transition flex flex-col justify-between">
-                    <div>
-                        <div class="text-xs font-semibold text-indigo-400 uppercase tracking-wider mb-1">Landing & Blueprint</div>
-                        <h3 class="font-semibold text-lg text-white mb-2">Smart Blueprint Landing</h3>
-                        <p class="text-sm text-slate-400 mb-4">Arquitectura de servicios y software para transformación y blindaje de IP.</p>
+        <!-- Portafolio de Despliegues en Vercel -->
+        <section class="bg-slate-900/50 rounded-2xl p-6 sm:p-8 border border-slate-800 shadow-lg mt-8">
+            <h2 class="text-xl font-semibold text-white mb-6 flex items-center gap-2">
+                <i class="fa-solid fa-rocket text-indigo-400"></i> Portafolio de Despliegues en Vercel
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <!-- Proyecto 1: Valora Pro -->
+                <a href="https://valora-pro-web.vercel.app/" target="_blank" class="block bg-slate-800/60 p-5 rounded-xl border border-slate-700/60 hover:border-indigo-500 transition-all group">
+                    <div class="flex items-center justify-between mb-2">
+                        <h3 class="font-semibold text-white group-hover:text-indigo-400 transition-colors">Valora Pro Web</h3>
+                        <i class="fa-solid fa-external-link text-xs text-slate-400 group-hover:text-indigo-400"></i>
                     </div>
-                    <a href="https://smart-blueprint-landing.vercel.app" target="_blank" class="inline-flex items-center gap-2 text-sm text-indigo-400 font-medium hover:underline mt-2">
-                        Ver despliegue en vivo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                    </a>
+                    <p class="text-sm text-slate-300">Simulador Inmobiliario Inteligente & Gamificado desplegado en producción.</p>
+                </a>
+                <!-- Espacio para más proyectos futuros -->
+                <div class="bg-slate-800/30 p-5 rounded-xl border border-dashed border-slate-700 flex flex-col justify-center items-center text-center">
+                    <span class="text-xs text-slate-400 uppercase tracking-wider font-medium">Ecosistema Activo</span>
+                    <p class="text-sm text-slate-300 mt-1">Más módulos y Smart Blueprints en desarrollo.</p>
                 </div>
-
-                <!-- Proyecto 2 -->
-                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 hover:border-indigo-500 transition flex flex-col justify-between">
-                    <div>
-                        <div class="text-xs font-semibold text-indigo-400 uppercase tracking-wider mb-1">Aplicación de Cumbre</div>
-                        <h3 class="font-semibold text-lg text-white mb-2">Algorithm Summit App</h3>
-                        <p class="text-sm text-slate-400 mb-4">Plataforma interactiva para la demostración y análisis de algoritmos de optimización.</p>
-                    </div>
-                    <a href="https://algorithm-summit-app.vercel.app" target="_blank" class="inline-flex items-center gap-2 text-sm text-indigo-400 font-medium hover:underline mt-2">
-                        Ver despliegue en vivo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                    </a>
-                </div>
-
-                <!-- Proyecto 3 -->
-                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 hover:border-indigo-500 transition flex flex-col justify-between">
-                    <div>
-                        <div class="text-xs font-semibold text-indigo-400 uppercase tracking-wider mb-1">Landing Soberana</div>
-                        <h3 class="font-semibold text-lg text-white mb-2">Sovereign Landing</h3>
-                        <p class="text-sm text-slate-400 mb-4">Interfaz web institucional enfocada en soluciones corporativas soberanas.</p>
-                    </div>
-                    <a href="https://sovereign-landing-fawn.vercel.app" target="_blank" class="inline-flex items-center gap-2 text-sm text-indigo-400 font-medium hover:underline mt-2">
-                        Ver despliegue en vivo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                    </a>
-                </div>
-
-                <!-- Proyecto 4 -->
-                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 hover:border-indigo-500 transition flex flex-col justify-between">
-                    <div>
-                        <div class="text-xs font-semibold text-indigo-400 uppercase tracking-wider mb-1">Negocio & Escalabilidad</div>
-                        <h3 class="font-semibold text-lg text-white mb-2">Eureka Business v2</h3>
-                        <p class="text-sm text-slate-400 mb-4">Simulador y panel operativo para modelos de negocios y tecnología escalable.</p>
-                    </div>
-                    <a href="https://eurekabusiness-v2.vercel.app" target="_blank" class="inline-flex items-center gap-2 text-sm text-indigo-400 font-medium hover:underline mt-2">
-                        Ver despliegue en vivo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                    </a>
-                </div>
-
-                <!-- Proyecto 5 -->
-                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 hover:border-indigo-500 transition flex flex-col justify-between">
-                    <div>
-                        <div class="text-xs font-semibold text-indigo-400 uppercase tracking-wider mb-1">Presentación Ejecutiva</div>
-                        <h3 class="font-semibold text-lg text-white mb-2">Brainness Presentation</h3>
-                        <p class="text-sm text-slate-400 mb-4">Deck de presentación interactiva para frameworks cognitivos corporativos.</p>
-                    </div>
-                    <a href="https://brainness-presentation.vercel.app" target="_blank" class="inline-flex items-center gap-2 text-sm text-indigo-400 font-medium hover:underline mt-2">
-                        Ver despliegue en vivo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                    </a>
-                </div>
-
-                <!-- Proyecto 6 -->
-                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 hover:border-indigo-500 transition flex flex-col justify-between">
-                    <div>
-                        <div class="text-xs font-semibold text-indigo-400 uppercase tracking-wider mb-1">Ecosistema On Demand</div>
-                        <h3 class="font-semibold text-lg text-white mb-2">SmartWorld OnDemand MVP</h3>
-                        <p class="text-sm text-slate-400 mb-4">Minimum Viable Product para el ecosistema educativo y tecnológico.</p>
-                    </div>
-                    <a href="https://smartworld-ondemand-mvp.vercel.app" target="_blank" class="inline-flex items-center gap-2 text-sm text-indigo-400 font-medium hover:underline mt-2">
-                        Ver despliegue en vivo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                    </a>
-                </div>
-
-                <!-- Proyecto 7 -->
-                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 hover:border-indigo-500 transition flex flex-col justify-between">
-                    <div>
-                        <div class="text-xs font-semibold text-indigo-400 uppercase tracking-wider mb-1">Motor Geoespacial</div>
-                        <h3 class="font-semibold text-lg text-white mb-2">Geomap Open Engine</h3>
-                        <p class="text-sm text-slate-400 mb-4">Motor interactivo para la simulación y análisis de datos estadísticos y demográficos.</p>
-                    </div>
-                    <a href="https://geomap-openengine.vercel.app" target="_blank" class="inline-flex items-center gap-2 text-sm text-indigo-400 font-medium hover:underline mt-2">
-                        Ver despliegue en vivo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                    </a>
-                </div>
-
-                <!-- Proyecto 8 -->
-                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 hover:border-indigo-500 transition flex flex-col justify-between">
-                    <div>
-                        <div class="text-xs font-semibold text-indigo-400 uppercase tracking-wider mb-1">Narrativa & Cómics</div>
-                        <h3 class="font-semibold text-lg text-white mb-2">San Luis Comics</h3>
-                        <p class="text-sm text-slate-400 mb-4">Aplicación web interactiva de storytelling y narrativas visuales locales.</p>
-                    </div>
-                    <a href="https://san-luis-comics.vercel.app" target="_blank" class="inline-flex items-center gap-2 text-sm text-indigo-400 font-medium hover:underline mt-2">
-                        Ver despliegue en vivo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
-                    </a>
-                </div>
-
             </div>
         </section>
 
-<!-- Experiencia Profesional -->
-<section class="bg-slate-800/50 rounded-2xl p-6 sm:p-8 border border-slate-700/60 shadow-lg mt-8">
-    <h2 class="text-xl font-semibold text-white mb-6 flex items-center gap-2">
-        <i class="fa-solid fa-briefcase text-indigo-400"></i> Experiencia Profesional
-    </h2>
-    <div class="space-y-6 border-l-2 border-indigo-500/30 pl-4 ml-2">
-        <div>
-            <h3 class="text-lg font-medium text-white">Arquitecto Jefe & Founder | SmartWorld AI™</h3>
-            <span class="text-sm text-indigo-400 font-medium">2025 - Presente</span>
-            <p class="text-slate-300 text-sm mt-1 leading-relaxed">
-                Lidero el blindaje de Propiedad Intelectual (IP) y diseño de Smart Blueprints para asegurar la trazabilidad y cumplimiento en corporaciones.
-            </p>
-        </div>
-        <div>
-            <h3 class="text-lg font-medium text-white">Consultor Estratégico & Riesgos | Corporaciones Financieras y Comerciales</h3>
-            <span class="text-sm text-indigo-400 font-medium">2012 - 2024</span>
-            <p class="text-slate-300 text-sm mt-1 leading-relaxed">
-                Gestioné el seguimiento de contratos de inversión y seguros complejos en entidades Financieras y Comerciales, garantizando la protección societaria y el cumplimiento de activos.
-            </p>
-        </div>
-        <div>
-            <h3 class="text-lg font-medium text-white">Jefe de Sistemas | La Gran Bodega - Lau Market</h3>
-            <span class="text-sm text-indigo-400 font-medium">1997 - 2005</span>
-            <p class="text-slate-300 text-sm mt-1 leading-relaxed">
-                Ejecuté la optimización de procesos operativos mediante la implementación de sistemas de información de gestión estratégica.
-            </p>
-        </div>
-    </div>
-</section>
+        <!-- Experiencia Profesional -->
+        <section class="bg-slate-900/50 rounded-2xl p-6 sm:p-8 border border-slate-800 shadow-lg mt-8">
+            <h2 class="text-xl font-semibold text-white mb-6 flex items-center gap-2">
+                <i class="fa-solid fa-briefcase text-indigo-400"></i> Experiencia Profesional
+            </h2>
+            <div class="space-y-6 border-l-2 border-indigo-500/30 pl-4 ml-2">
+                <div>
+                    <h3 class="text-lg font-medium text-white">Arquitecto Jefe & Founder | SmartWorld AI™</h3>
+                    <span class="text-sm text-indigo-400 font-medium">2025 - Presente</span>
+                    <p class="text-slate-300 text-sm mt-1 leading-relaxed">
+                        Lidero el blindaje de Propiedad Intelectual (IP) y diseño de Smart Blueprints para asegurar la trazabilidad y cumplimiento en corporaciones.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-medium text-white">Consultor Estratégico & Riesgos | Corporaciones Financieras y Comerciales</h3>
+                    <span class="text-sm text-indigo-400 font-medium">2012 - 2024</span>
+                    <p class="text-slate-300 text-sm mt-1 leading-relaxed">
+                        Gestioné el seguimiento de contratos de inversión y seguros complejos en entidades Financieras y Comerciales, garantizando la protección societaria y el cumplimiento de activos.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-medium text-white">Jefe de Sistemas | La Gran Bodega - Lau Market</h3>
+                    <span class="text-sm text-indigo-400 font-medium">1997 - 2005</span>
+                    <p class="text-slate-300 text-sm mt-1 leading-relaxed">
+                        Ejecuté la optimización de procesos operativos mediante la implementación de sistemas de información de gestión estratégica.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-<!-- Formación Académica -->
-<section class="bg-slate-800/50 rounded-2xl p-6 sm:p-8 border border-slate-700/60 shadow-lg mt-8">
-    <h2 class="text-xl font-semibold text-white mb-6 flex items-center gap-2">
-        <i class="fa-solid fa-graduation-cap text-indigo-400"></i> Formación Académica
-    </h2>
-    <ul class="space-y-4 text-slate-300 text-sm">
-        <li class="flex items-start gap-3">
-            <i class="fa-solid fa-circle-check text-indigo-400 mt-1"></i>
-            <div>
-                <strong class="text-white">Ingeniería Informática</strong> - Universidad Ricardo Palma (2001-2004) — Hasta el sexto semestre.
-            </div>
-        </li>
-        <li class="flex items-start gap-3">
-            <i class="fa-solid fa-circle-check text-indigo-400 mt-1"></i>
-            <div>
-                <strong class="text-white">Asistente de Gerencia y Calidad en el Servicio</strong> - Universidad Ricardo Palma (2002).
-            </div>
-        </li>
-    </ul>
-</section>
-        <!-- Formación -->
-        <section class="bg-slate-800/50 rounded-2xl p-6 sm:p-8 border border-slate-700/60 shadow-lg">
-            <h2 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+        <!-- Formación Académica (Única) -->
+        <section class="bg-slate-900/50 rounded-2xl p-6 sm:p-8 border border-slate-800 shadow-lg mt-8">
+            <h2 class="text-xl font-semibold text-white mb-6 flex items-center gap-2">
                 <i class="fa-solid fa-graduation-cap text-indigo-400"></i> Formación Académica
             </h2>
-            <ul class="space-y-3 text-slate-300 text-sm">
+            <ul class="space-y-4 text-slate-300 text-sm">
                 <li class="flex items-start gap-3">
                     <i class="fa-solid fa-circle-check text-indigo-400 mt-1"></i>
                     <div>
@@ -224,12 +111,12 @@
             </ul>
         </section>
 
-    </main>
+        <!-- Pie de página -->
+        <footer class="text-center mt-12 text-sm text-slate-500">
+            <p>© 2026 Rubens Noé Temoche Chávez. SmartWorld AI Ecosistema Digital.</p>
+        </footer>
 
-    <!-- Footer -->
-    <footer class="bg-slate-800 border-t border-slate-700 text-center py-6 text-sm text-slate-400 mt-16">
-        <p>© 2026 Rubens Noé Temoche Chávez. Todos los derechos reservados. Diseñado como Ecosistema Digital Interactivo.</p>
-    </footer>
+    </div>
 
 </body>
 </html>
